@@ -3,67 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vidhi katre Portfolio</title>
+    <title>Document</title>
 </head>
 <body>
-     <header>
-      <h1>VIDHI KATRE</h1>
-     </header>
-
-    <h2>about me</h2>
-        <section>
-           Hello! My name is Vidhi Katre. I am a first- year undergraduate student with a keen interest in computer science. I am currently learning HTML and basic programming to build simple and meaningful web pages.
-        </section>
-        <h2>Links</h2>
-        <nav>
-            <a href="about.html">about me</a>
-        </nav>
-        <section>
-            <img src="/personal portfolio/imagefolder/Vidhi img.jpeg" height="80">
-        </section>
-        <section> 
-            <table>
-            <tr>
-            <td><h3> Soft skills</h3>
-            <ul>
-             <li>Teamwork</li>
-             <li>Problem solving </li>
-             <li>Time Management</li>
-             <li>Leadership </li>
-             <li>Critical Thinking </li>
-             <li>Adaptability</li>
-             <li>Quick Learner </li>
-            </ul>  
-        </td>
-            <td ><h3> Technical skills</h3>  
-         <ul>
-         <li>HTML </li>
-          <li>CSS </li>
-         <li>JAVASCRIPT </li>
-         <li>Python</li>
-         </ul>
-        </td>
+    <section>
+        <h1>Event Schedule(Tables)</h2>
+<table border="1">
+    <tr>
+    <th>Activity</th>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Venue</th>
     </tr>
-    </table>
-        </Section>
-        <Section>
-            <h2>Projects</h2>
-            <p>Currently ,I am learning HTML by following tutorials on youtube.</p>
-        </Section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=XEAvaUsbx3nL9Fow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    <tr>
+<td>Treasure Hunt</td>
+<td>05/12</td>
+<td>5pm</td>
+<td>Main ground</td>
+    </tr>
+    <tr>
+<td>Tug of water</td>
+<td>06/12</td>
+<td>5pm</td>
+<td>Main ground</td>
+    </tr>
+    <tr>
+<td>Codeutsav</td>
+<td>09/12</td>
+<td>5pm</td>
+<td>CCC</td>
+    </tr>
+</table>
+    </section>
+    <section>
+        <h4>Registarion Form</h4>
+        <form action="/action.php">
+            <input type="text" placeholder="Type Your Name">
+            <br>
+            <br>
+            <input type="text" placeholder=" Enter your email id">
+            <br>
+            <br>
+           <input type="number" placeholder="Enter Your phone.no ">
+             <br>
+            <h2>Date</h2>
+            <input type="radio" value="Primary date" name="Date">Primary date
+            <input type="radio" value="Alternate date" name="Date">Alternate date
+            <br>
+            <h2>gender</h2>
+            <input type="radio" value="Male" name="gender">Male
+            <input type="radio" value="Female" name="gender">Female
+            <input type="radio" value="Other" name="gender">Other
+            <br>
+            <h2>cources</h2>
+            <label for="Web development">
+                <input type="checkbox" value="Web development" name="cource" id="101">Web development
+            </label>
+            <br>
+            <label for="c++">
+                <input type="checkbox" value="c++" name="cource" id="101">C++
+            </label><br>
+            <label for="HTML">
+                <input type="checkbox" value="HTML" name="cource" id="102">HTML
+            </label><br>
+            <label for="JAVASCRIPT">
+                <input type="checkbox" value="JAVASCRIPT" name="cource" id="103">JAVASCRIPT
+            </label><br>
+             <label for="python">
+                <input type="checkbox" value="python" name="cource" id="104">python
+            </label><br>
+             <label for="C">
+                <input type="checkbox" value="C" name="cource" id="105">C
+            </label><br> <br>
+            <textarea name="feedback" id="101" placeholder="Please give valuable feedback here" rows="5">Feedback</textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
 
-        </iframe>
-        <Section>
-            <h2> Testimonial</h2>
-            <blockquote>
-                "Learning HTML step by step is really fun and helpful"
-        </blockquote>
-    
-        </Section>
-        <section>
-    <nav>
-        <a href="/about.html">about.html</a><br>
-        <a href="index.html">Home</a>
-    </nav></section>
+
+
+    </section>
 </body>
 </html>
